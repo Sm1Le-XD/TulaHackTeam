@@ -1,0 +1,5 @@
+requests
+aiogram==2.21
+psycopg2-binary
+pydantic
+httpx

@@ -1,0 +1,9 @@
+{
+    "modelUri": "gpt://b1g11e1687u5keine5fp/yandexgpt-lite",
+    "completionOptions": {
+        "stream": false,
+        "temperature": 0.8,
+        "maxTokens": "200"
+    },
+    "messages": []
+}
