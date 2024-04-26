@@ -14,14 +14,6 @@ from db.db import db_start, db_deader
 async def on_startup(_):
     print("HI, i work")
 
-
-@dp.message_handler()
-async def echo_upper(message: types.Message):
-    # print(message.reply_to_message['from'])
-    if message.reply_to_message is not None and message.reply_to_message['from']['id'] == 7035202829:
-        await message.reply(yagpt.gpt.epi(message.text))
-
-
 if __name__ == '__main__':
     print('hello world')
     db_deader()
