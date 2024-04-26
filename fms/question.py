@@ -6,8 +6,6 @@ from command import dp
 from keyboard import creat_kb as kb
 from db import db
 
-import yagpt.gpt
-
 # TODO скипать и возвращаться к вопросам
 
 QQ = ["С кем он был близок", "Расскажите про его профессию", "где он учился",
